@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB4E0A12876DA4B00059852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E0A02876DA4B00059852 /* AppDelegate.swift */; };
+		EAB4E0A32876DA4B00059852 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E0A22876DA4B00059852 /* SceneDelegate.swift */; };
+		EAB4E0A52876DA4B00059852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E0A42876DA4B00059852 /* ViewController.swift */; };
+		EAB4E0A82876DA4B00059852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB4E0A62876DA4B00059852 /* Main.storyboard */; };
+		EAB4E0AA2876DA4E00059852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB4E0A92876DA4E00059852 /* Assets.xcassets */; };
+		EAB4E0AD2876DA4E00059852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB4E0AB2876DA4E00059852 /* LaunchScreen.storyboard */; };
+		EAB4E0B82876DA4E00059852 /* Multi_Threading_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E0B72876DA4E00059852 /* Multi_Threading_ExampleTests.swift */; };
+		EAB4E0C22876DA4E00059852 /* Multi_Threading_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E0C12876DA4E00059852 /* Multi_Threading_ExampleUITests.swift */; };
+		EAB4E0C42876DA4E00059852 /* Multi_Threading_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E0C32876DA4E00059852 /* Multi_Threading_ExampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB4E0B42876DA4E00059852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB4E0952876DA4B00059852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB4E09C2876DA4B00059852;
+			remoteInfo = "Multi-Threading Example";
+		};
+		EAB4E0BE2876DA4E00059852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB4E0952876DA4B00059852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB4E09C2876DA4B00059852;
+			remoteInfo = "Multi-Threading Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAB4E09D2876DA4B00059852 /* Multi-Threading Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-Threading Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB4E0A02876DA4B00059852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAB4E0A22876DA4B00059852 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAB4E0A42876DA4B00059852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAB4E0A72876DA4B00059852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB4E0A92876DA4E00059852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB4E0AC2876DA4E00059852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB4E0AE2876DA4E00059852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB4E0B32876DA4E00059852 /* Multi-Threading ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-Threading ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB4E0B72876DA4E00059852 /* Multi_Threading_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_Threading_ExampleTests.swift; sourceTree = "<group>"; };
+		EAB4E0BD2876DA4E00059852 /* Multi-Threading ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-Threading ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB4E0C12876DA4E00059852 /* Multi_Threading_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_Threading_ExampleUITests.swift; sourceTree = "<group>"; };
+		EAB4E0C32876DA4E00059852 /* Multi_Threading_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_Threading_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB4E09A2876DA4B00059852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4E0B02876DA4E00059852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4E0BA2876DA4E00059852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB4E0942876DA4B00059852 = {
+			isa = PBXGroup;
+			children = (
+				EAB4E09F2876DA4B00059852 /* Multi-Threading Example */,
+				EAB4E0B62876DA4E00059852 /* Multi-Threading ExampleTests */,
+				EAB4E0C02876DA4E00059852 /* Multi-Threading ExampleUITests */,
+				EAB4E09E2876DA4B00059852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB4E09E2876DA4B00059852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4E09D2876DA4B00059852 /* Multi-Threading Example.app */,
+				EAB4E0B32876DA4E00059852 /* Multi-Threading ExampleTests.xctest */,
+				EAB4E0BD2876DA4E00059852 /* Multi-Threading ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB4E09F2876DA4B00059852 /* Multi-Threading Example */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4E0A02876DA4B00059852 /* AppDelegate.swift */,
+				EAB4E0A22876DA4B00059852 /* SceneDelegate.swift */,
+				EAB4E0A42876DA4B00059852 /* ViewController.swift */,
+				EAB4E0A62876DA4B00059852 /* Main.storyboard */,
+				EAB4E0A92876DA4E00059852 /* Assets.xcassets */,
+				EAB4E0AB2876DA4E00059852 /* LaunchScreen.storyboard */,
+				EAB4E0AE2876DA4E00059852 /* Info.plist */,
+			);
+			path = "Multi-Threading Example";
+			sourceTree = "<group>";
+		};
+		EAB4E0B62876DA4E00059852 /* Multi-Threading ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4E0B72876DA4E00059852 /* Multi_Threading_ExampleTests.swift */,
+			);
+			path = "Multi-Threading ExampleTests";
+			sourceTree = "<group>";
+		};
+		EAB4E0C02876DA4E00059852 /* Multi-Threading ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4E0C12876DA4E00059852 /* Multi_Threading_ExampleUITests.swift */,
+				EAB4E0C32876DA4E00059852 /* Multi_Threading_ExampleUITestsLaunchTests.swift */,
+			);
+			path = "Multi-Threading ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB4E09C2876DA4B00059852 /* Multi-Threading Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB4E0C72876DA4E00059852 /* Build configuration list for PBXNativeTarget "Multi-Threading Example" */;
+			buildPhases = (
+				EAB4E0992876DA4B00059852 /* Sources */,
+				EAB4E09A2876DA4B00059852 /* Frameworks */,
+				EAB4E09B2876DA4B00059852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi-Threading Example";
+			productName = "Multi-Threading Example";
+			productReference = EAB4E09D2876DA4B00059852 /* Multi-Threading Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB4E0B22876DA4E00059852 /* Multi-Threading ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB4E0CA2876DA4E00059852 /* Build configuration list for PBXNativeTarget "Multi-Threading ExampleTests" */;
+			buildPhases = (
+				EAB4E0AF2876DA4E00059852 /* Sources */,
+				EAB4E0B02876DA4E00059852 /* Frameworks */,
+				EAB4E0B12876DA4E00059852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB4E0B52876DA4E00059852 /* PBXTargetDependency */,
+			);
+			name = "Multi-Threading ExampleTests";
+			productName = "Multi-Threading ExampleTests";
+			productReference = EAB4E0B32876DA4E00059852 /* Multi-Threading ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAB4E0BC2876DA4E00059852 /* Multi-Threading ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB4E0CD2876DA4E00059852 /* Build configuration list for PBXNativeTarget "Multi-Threading ExampleUITests" */;
+			buildPhases = (
+				EAB4E0B92876DA4E00059852 /* Sources */,
+				EAB4E0BA2876DA4E00059852 /* Frameworks */,
+				EAB4E0BB2876DA4E00059852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB4E0BF2876DA4E00059852 /* PBXTargetDependency */,
+			);
+			name = "Multi-Threading ExampleUITests";
+			productName = "Multi-Threading ExampleUITests";
+			productReference = EAB4E0BD2876DA4E00059852 /* Multi-Threading ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB4E0952876DA4B00059852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EAB4E09C2876DA4B00059852 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EAB4E0B22876DA4E00059852 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EAB4E09C2876DA4B00059852;
+					};
+					EAB4E0BC2876DA4E00059852 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EAB4E09C2876DA4B00059852;
+					};
+				};
+			};
+			buildConfigurationList = EAB4E0982876DA4B00059852 /* Build configuration list for PBXProject "Multi-Threading Example" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB4E0942876DA4B00059852;
+			productRefGroup = EAB4E09E2876DA4B00059852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB4E09C2876DA4B00059852 /* Multi-Threading Example */,
+				EAB4E0B22876DA4E00059852 /* Multi-Threading ExampleTests */,
+				EAB4E0BC2876DA4E00059852 /* Multi-Threading ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB4E09B2876DA4B00059852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4E0AD2876DA4E00059852 /* LaunchScreen.storyboard in Resources */,
+				EAB4E0AA2876DA4E00059852 /* Assets.xcassets in Resources */,
+				EAB4E0A82876DA4B00059852 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4E0B12876DA4E00059852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4E0BB2876DA4E00059852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB4E0992876DA4B00059852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4E0A52876DA4B00059852 /* ViewController.swift in Sources */,
+				EAB4E0A12876DA4B00059852 /* AppDelegate.swift in Sources */,
+				EAB4E0A32876DA4B00059852 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4E0AF2876DA4E00059852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4E0B82876DA4E00059852 /* Multi_Threading_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4E0B92876DA4E00059852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4E0C42876DA4E00059852 /* Multi_Threading_ExampleUITestsLaunchTests.swift in Sources */,
+				EAB4E0C22876DA4E00059852 /* Multi_Threading_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB4E0B52876DA4E00059852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB4E09C2876DA4B00059852 /* Multi-Threading Example */;
+			targetProxy = EAB4E0B42876DA4E00059852 /* PBXContainerItemProxy */;
+		};
+		EAB4E0BF2876DA4E00059852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB4E09C2876DA4B00059852 /* Multi-Threading Example */;
+			targetProxy = EAB4E0BE2876DA4E00059852 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAB4E0A62876DA4B00059852 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB4E0A72876DA4B00059852 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB4E0AB2876DA4E00059852 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB4E0AC2876DA4E00059852 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB4E0C52876DA4E00059852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAB4E0C62876DA4E00059852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB4E0C82876DA4E00059852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Multi-Threading Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "attech.Multi-Threading-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAB4E0C92876DA4E00059852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Multi-Threading Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "attech.Multi-Threading-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAB4E0CB2876DA4E00059852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "attech.Multi-Threading-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-Threading Example.app/Multi-Threading Example";
+			};
+			name = Debug;
+		};
+		EAB4E0CC2876DA4E00059852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "attech.Multi-Threading-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-Threading Example.app/Multi-Threading Example";
+			};
+			name = Release;
+		};
+		EAB4E0CE2876DA4E00059852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "attech.Multi-Threading-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multi-Threading Example";
+			};
+			name = Debug;
+		};
+		EAB4E0CF2876DA4E00059852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "attech.Multi-Threading-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multi-Threading Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB4E0982876DA4B00059852 /* Build configuration list for PBXProject "Multi-Threading Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB4E0C52876DA4E00059852 /* Debug */,
+				EAB4E0C62876DA4E00059852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB4E0C72876DA4E00059852 /* Build configuration list for PBXNativeTarget "Multi-Threading Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB4E0C82876DA4E00059852 /* Debug */,
+				EAB4E0C92876DA4E00059852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB4E0CA2876DA4E00059852 /* Build configuration list for PBXNativeTarget "Multi-Threading ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB4E0CB2876DA4E00059852 /* Debug */,
+				EAB4E0CC2876DA4E00059852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB4E0CD2876DA4E00059852 /* Build configuration list for PBXNativeTarget "Multi-Threading ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB4E0CE2876DA4E00059852 /* Debug */,
+				EAB4E0CF2876DA4E00059852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB4E0952876DA4B00059852 /* Project object */;
+}
